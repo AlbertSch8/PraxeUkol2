@@ -1,10 +1,10 @@
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class FilterCSV {
 
     public static void main(String[] args) {
+
+        String ahoj = args[0];
         // Cesta k CSV souboru
         String inputFilePath = "C:\\Users\\Albert\\Desktop\\Geo.csv";
         String outputFilePath = "C:\\Users\\Albert\\Desktop\\GeoFilter.csv";
