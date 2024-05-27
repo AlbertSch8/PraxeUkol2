@@ -20,7 +20,7 @@ public class FilterCSV {
                 } else if (line.contains("SK")) {
                     writer.write(line + ",5500000\n");
                 } else {
-                    writer.write(line + "\n");
+                    writer.write(line + "\n"); // Zapíšeme původní řádek pro ostatní záznamy
                 }
             }
             System.out.println("Filtrování a kopírování bylo úspěšně dokončeno.");
